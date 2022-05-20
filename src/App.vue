@@ -4,7 +4,7 @@
     <div style="display: flex">
       <!-- <BaseSide /> -->
       <div>
-        <HelloWorld msg="Hello Vue 3.0 + Element Plus + Vite" />
+        <PairGenerator />
       </div>
     </div>
   </el-config-provider>
