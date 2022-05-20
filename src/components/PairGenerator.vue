@@ -142,12 +142,12 @@ export default {
 </script>
 
 <template>
-<h1>Random pair generator</h1>
+<h1>Random partner generator</h1>
 
 <el-card class="box-card">
     <!-- Form -->
     <template v-if="isFormVisible">
-      <el-form :model="form" label-width="200px">
+      <el-form :model="form">
         <el-form-item label="Participant names">
           <el-input
             v-model="form.names"
@@ -191,7 +191,7 @@ export default {
   margin-top: 13px;
   line-height: 12px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 </style>

@@ -1,13 +1,20 @@
 <template>
-  <el-config-provider namespace="ep">
-    <BaseHeader />
-    <div style="display: flex">
-      <!-- <BaseSide /> -->
-      <div>
+<el-config-provider namespace="ep">
+  <el-container>
+    <el-header>
+      <BaseHeader />
+    </el-header>
+    <!-- <el-container>
+      <el-aside>
+        <BaseSide />
+      </el-aside> -->
+
+      <el-main>
         <PairGenerator />
-      </div>
-    </div>
-  </el-config-provider>
+      </el-main>
+    <!-- </el-container> -->
+  </el-container>
+</el-config-provider>
 </template>
 
 <style>
